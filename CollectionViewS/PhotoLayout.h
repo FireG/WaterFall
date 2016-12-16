@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PhotoLayout : UICollectionViewLayout
+@interface PhotoLayout : UICollectionViewFlowLayout
+
 
 @end

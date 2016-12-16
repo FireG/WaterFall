@@ -13,6 +13,12 @@
 		FBCF0F3F1E0280470003730C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCF0F3D1E0280470003730C /* Main.storyboard */; };
 		FBCF0F411E0280470003730C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCF0F401E0280470003730C /* Assets.xcassets */; };
 		FBCF0F441E0280470003730C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCF0F421E0280470003730C /* LaunchScreen.storyboard */; };
+		FBCF0F4D1E0282700003730C /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF0F4C1E0282700003730C /* PhotoController.m */; };
+		FBCF0F501E02833C0003730C /* WaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF0F4F1E02833C0003730C /* WaterFallController.m */; };
+		FBCF0F531E028B6D0003730C /* PhotoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF0F521E028B6D0003730C /* PhotoLayout.m */; };
+		FBEAA7E81E03D6E8001D3866 /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA7E71E03D6E8001D3866 /* WaterFallLayout.m */; };
+		FBEAA7EA1E03DBC6001D3866 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBEAA7E91E03DBC6001D3866 /* shop.plist */; };
+		FBEAA7ED1E03DBEF001D3866 /* ShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA7EC1E03DBEF001D3866 /* ShopModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		FBCF0F401E0280470003730C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBCF0F431E0280470003730C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBCF0F451E0280470003730C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCF0F4B1E0282700003730C /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		FBCF0F4C1E0282700003730C /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		FBCF0F4E1E02833C0003730C /* WaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallController.h; sourceTree = "<group>"; };
+		FBCF0F4F1E02833C0003730C /* WaterFallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallController.m; sourceTree = "<group>"; };
+		FBCF0F511E028B6D0003730C /* PhotoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLayout.h; sourceTree = "<group>"; };
+		FBCF0F521E028B6D0003730C /* PhotoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLayout.m; sourceTree = "<group>"; };
+		FBEAA7E61E03D6E8001D3866 /* WaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
+		FBEAA7E71E03D6E8001D3866 /* WaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallLayout.m; sourceTree = "<group>"; };
+		FBEAA7E91E03DBC6001D3866 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
+		FBEAA7EB1E03DBEF001D3866 /* ShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopModel.h; sourceTree = "<group>"; };
+		FBEAA7EC1E03DBEF001D3866 /* ShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +81,20 @@
 				FBCF0F3B1E0280470003730C /* ViewController.m */,
 				FBCF0F3D1E0280470003730C /* Main.storyboard */,
 				FBCF0F401E0280470003730C /* Assets.xcassets */,
+				FBEAA7E91E03DBC6001D3866 /* shop.plist */,
 				FBCF0F421E0280470003730C /* LaunchScreen.storyboard */,
 				FBCF0F451E0280470003730C /* Info.plist */,
 				FBCF0F341E0280470003730C /* Supporting Files */,
+				FBCF0F4B1E0282700003730C /* PhotoController.h */,
+				FBCF0F4C1E0282700003730C /* PhotoController.m */,
+				FBCF0F4E1E02833C0003730C /* WaterFallController.h */,
+				FBCF0F4F1E02833C0003730C /* WaterFallController.m */,
+				FBCF0F511E028B6D0003730C /* PhotoLayout.h */,
+				FBCF0F521E028B6D0003730C /* PhotoLayout.m */,
+				FBEAA7E61E03D6E8001D3866 /* WaterFallLayout.h */,
+				FBEAA7E71E03D6E8001D3866 /* WaterFallLayout.m */,
+				FBEAA7EB1E03DBEF001D3866 /* ShopModel.h */,
+				FBEAA7EC1E03DBEF001D3866 /* ShopModel.m */,
 			);
 			path = CollectionViewS;
 			sourceTree = "<group>";
@@ -110,7 +138,6 @@
 				TargetAttributes = {
 					FBCF0F301E0280470003730C = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = GTBA3VY927;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +167,7 @@
 			files = (
 				FBCF0F441E0280470003730C /* LaunchScreen.storyboard in Resources */,
 				FBCF0F411E0280470003730C /* Assets.xcassets in Resources */,
+				FBEAA7EA1E03DBC6001D3866 /* shop.plist in Resources */,
 				FBCF0F3F1E0280470003730C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBCF0F3C1E0280470003730C /* ViewController.m in Sources */,
+				FBEAA7ED1E03DBEF001D3866 /* ShopModel.m in Sources */,
 				FBCF0F391E0280470003730C /* AppDelegate.m in Sources */,
+				FBCF0F531E028B6D0003730C /* PhotoLayout.m in Sources */,
+				FBCF0F501E02833C0003730C /* WaterFallController.m in Sources */,
+				FBCF0F4D1E0282700003730C /* PhotoController.m in Sources */,
 				FBCF0F361E0280470003730C /* main.m in Sources */,
+				FBEAA7E81E03D6E8001D3866 /* WaterFallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GTBA3VY927;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CollectionViewS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guozihui.CollectionViewS;
@@ -285,7 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GTBA3VY927;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CollectionViewS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guozihui.CollectionViewS;
@@ -312,6 +345,7 @@
 				FBCF0F4A1E0280470003730C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShopModel.h"
+//@protocol WaterFallDelegate <NSObject>
+//
+//@end
 
-@interface WaterFallLayout : UICollectionViewLayout
-
+@interface WaterFallLayout : UICollectionViewFlowLayout
+@property (nonatomic,strong)NSArray *shops;
 @end
